@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>English Quiz</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="header__nav">
+            <h1 class="nav-h1">Cancion</h1>
+            <a class="nav-a" href="#">Inicio</a>
+            <a class="nav-a" href="#">Cuenta</a>
+            <a class="nav-a" href="#">No se</a>
+            <a class="nav-a" href="#">Sobre nosotros</a>
+        </nav>
+    </header>
+    <div class="div-points">
+        <h3>Puntos:</h3><h4 id="points"></h4>
+    </div>
+    <div class="main-container">
+        <aside class="aside__container shadow">
+            <h2 class="aside__h2">Lemon tree</h2>
+            <h3 class="subtitles">Lyrics</h3>
+        </aside>
+        <section class="section__form shadow">
+            <div class="div-form">
+                <p class="form__quest dis type-1">Parte de la canción y tú completas la línea con la palabra del input</p>
+                <input class="form__input click" id="input" type="button" value="Opcion 1">
+                <input class="form__input click" id="input" type="button" value="Opcion 2">
+            </div>
+            <div class="div-form">
+                <p class="form__quest dis type-2">Parte de la canción y tú completas la línea con la palabra del input</p>
+                <input class="form__input click"  id="input" type="button" value="Opcion 1">
+                <input class="form__input click"  id="input" type="button" value="Opcion 2">
+            </div>
+            <div class="div-form">
+                <p class="form__quest dis type-3">Parte de la canción y tú completas la línea con la palabra del input</p>
+                <input class="form__input click"  id="input" type="button" value="Opcion 1">
+                <input class="form__input click" id="input" type="button" value="Opcion 2">
+            </div>
+            <input class="submit-input dis" id="submit" type="submit" value="enter">
+        </section>
+    </div>
+    <div class="div-audio">
+        <audio class="audio" src="audio/lemon.mp3"></audio>
+        <button class="shadow" id="playButton">Play</button>
+    </div>
+    <script src="code/lemon.js" async defer></script>
+    <script src="code/code.js" async defer></script>
+</body>
+</html>
